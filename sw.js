@@ -1,7 +1,7 @@
 /* We only need to modify cacheName variable */
 
 const cacheName = 'space-v1.0'; /* Name your cache  */
-const filesToCache = ['/space/idex.html'] /* that's all, all of the rest files will be automatically installed in cache */
+const filesToCache = ['/space/index.html'] /* that's all, all of the rest files will be automatically installed in cache */
 
 // register service worker
 // if service worker API is available
