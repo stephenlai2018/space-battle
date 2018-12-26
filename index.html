@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=0, initial-scale=1,minimum-scale=1, maximum-scale=1, width=device-width, minimal-ui=1">
+    <link rel="icon" href="./images/icon.jpg">
+    <link rel="manifest" href="./manifest.json">
+    <title>Space</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+    }
+    body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>    
+    <div id='phaser-game'></div>
+
+    <script src="js/phaser.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scenes/sceneMain.js"></script>
+    <script src="js/scenes/sceneTitle.js"></script>
+    <script src="js/scenes/sceneOver.js"></script>
+    <script src="js/scenes/sceneLoad.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/classes/mc/model.js"></script>
+    <script src="js/classes/mc/controller.js"></script>
+    <script src="js/classes/comps/scoreBox.js"></script>
+     <script src="js/classes/comps/bar.js"></script>
+    <script src="js/classes/util/align.js"></script>
+    <script src="js/classes/util/alignGrid.js"></script>
+    <script src="js/classes/ui/flatButton.js"></script>
+    <script src="js/classes/util/mediaManager.js"></script>
+    <script src="js/classes/ui/toggleButton.js"></script>
+    <script src="js/classes/ui/soundButtons.js"></script>
+    <script src="./sw.js"></script>
+</body>
+</html>
